@@ -16,6 +16,9 @@
 		FE5B0F4D1C880DE500C31D3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE5B0F4B1C880DE500C31D3A /* LaunchScreen.storyboard */; };
 		FE5B0F581C880DE600C31D3A /* GCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5B0F571C880DE600C31D3A /* GCDTests.m */; };
 		FE5B0F631C880DE600C31D3A /* GCDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5B0F621C880DE600C31D3A /* GCDUITests.m */; };
+		FE5B0F721C88204200C31D3A /* OneImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5B0F711C88204200C31D3A /* OneImageViewController.m */; };
+		FE5B0F751C88205400C31D3A /* MoreImageViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5B0F741C88205400C31D3A /* MoreImageViewViewController.m */; };
+		FE5B0F781C88206500C31D3A /* GCDLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5B0F771C88206500C31D3A /* GCDLockViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		FE5B0F5E1C880DE600C31D3A /* GCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5B0F621C880DE600C31D3A /* GCDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDUITests.m; sourceTree = "<group>"; };
 		FE5B0F641C880DE600C31D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE5B0F701C88204200C31D3A /* OneImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneImageViewController.h; sourceTree = "<group>"; };
+		FE5B0F711C88204200C31D3A /* OneImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneImageViewController.m; sourceTree = "<group>"; };
+		FE5B0F731C88205400C31D3A /* MoreImageViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreImageViewViewController.h; sourceTree = "<group>"; };
+		FE5B0F741C88205400C31D3A /* MoreImageViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreImageViewViewController.m; sourceTree = "<group>"; };
+		FE5B0F761C88206500C31D3A /* GCDLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDLockViewController.h; sourceTree = "<group>"; };
+		FE5B0F771C88206500C31D3A /* GCDLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDLockViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +116,12 @@
 				FE5B0F3E1C880DE500C31D3A /* AppDelegate.m */,
 				FE5B0F401C880DE500C31D3A /* ViewController.h */,
 				FE5B0F411C880DE500C31D3A /* ViewController.m */,
+				FE5B0F701C88204200C31D3A /* OneImageViewController.h */,
+				FE5B0F711C88204200C31D3A /* OneImageViewController.m */,
+				FE5B0F731C88205400C31D3A /* MoreImageViewViewController.h */,
+				FE5B0F741C88205400C31D3A /* MoreImageViewViewController.m */,
+				FE5B0F761C88206500C31D3A /* GCDLockViewController.h */,
+				FE5B0F771C88206500C31D3A /* GCDLockViewController.m */,
 				FE5B0F431C880DE500C31D3A /* Main.storyboard */,
 				FE5B0F491C880DE500C31D3A /* Assets.xcassets */,
 				FE5B0F4B1C880DE500C31D3A /* LaunchScreen.storyboard */,
@@ -275,7 +290,10 @@
 			files = (
 				FE5B0F421C880DE500C31D3A /* ViewController.m in Sources */,
 				FE5B0F3F1C880DE500C31D3A /* AppDelegate.m in Sources */,
+				FE5B0F781C88206500C31D3A /* GCDLockViewController.m in Sources */,
 				FE5B0F481C880DE500C31D3A /* GCD.xcdatamodeld in Sources */,
+				FE5B0F721C88204200C31D3A /* OneImageViewController.m in Sources */,
+				FE5B0F751C88205400C31D3A /* MoreImageViewViewController.m in Sources */,
 				FE5B0F3C1C880DE500C31D3A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
